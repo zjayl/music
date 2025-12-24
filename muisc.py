@@ -4,22 +4,22 @@ import streamlit as st
 st.set_page_config(page_title="网络版音乐播放器", layout="centered")
 SONGS = [
     {
-        "title": "晴天",
-        "artist": "周杰伦",
-        "cover": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/109951168875636995.jpg",  # 专辑图URL
-        "audio_url": "https://music.163.com/song/media/outer/url?id=186016.mp3"  # 音频URL
+        "title": "卡农 (钢琴版)",
+        "artist": "经典纯音乐",
+        "cover": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music_covers/canon.jpg",  # 永久专辑图
+        "audio_url": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music/canon.mp3"       # 永久音频
     },
     {
-        "title": "花海",
-        "artist": "周杰伦",
-        "cover": "https://p2.music.126.net/7TL2p35K9x0478-0WeY4kw==/109951168874863260.jpg",
-        "audio_url": "https://music.163.com/song/media/outer/url?id=25644881.mp3"
+        "title": "致爱丽丝",
+        "artist": "贝多芬",
+        "cover": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music_covers/elise.jpg",
+        "audio_url": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music/elise.mp3"
     },
     {
-        "title": "七里香",
-        "artist": "周杰伦",
-        "cover": "https://p2.music.126.net/65DgwN47KOMQY887VY28gg==/109951168874863262.jpg",
-        "audio_url": "https://music.163.com/song/media/outer/url?id=25644877.mp3"
+        "title": "小星星 (经典版)",
+        "artist": "经典儿歌",
+        "cover": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music_covers/star.jpg",
+        "audio_url": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music/star.mp3"
     }
 ]
 
@@ -58,3 +58,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+

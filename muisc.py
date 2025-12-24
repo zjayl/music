@@ -2,8 +2,6 @@ import streamlit as st
 
 # 页面配置
 st.set_page_config(page_title="网络版音乐播放器", layout="centered")
-
-# 歌曲列表（使用网络音频URL + 网络专辑封面URL，无需本地文件）
 SONGS = [
     {
         "title": "晴天",
@@ -31,7 +29,6 @@ if "current_song_idx" not in st.session_state:
 
 def main():
     st.title("🎵 网络版音乐播放器")
-    st.caption("无需本地文件，直接播放网易云音乐URL")
 
     # 获取当前歌曲信息
     current_song = SONGS[st.session_state.current_song_idx]
@@ -59,4 +56,5 @@ def main():
             st.rerun()
 
 if __name__ == "__main__":
+
     main()

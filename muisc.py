@@ -7,13 +7,13 @@ SONGS = [
         "title": "卡农 (钢琴版)",
         "artist": "经典纯音乐",
         "cover": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music_covers/canon.jpg",  # 永久专辑图
-        "audio_url": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music/canon.mp3"       # 永久音频
+        "audio_url": "https://music.163.com/song/media/outer/url?id=3327521028.mp3"       # 永久音频
     },
     {
         "title": "致爱丽丝",
         "artist": "贝多芬",
         "cover": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music_covers/elise.jpg",
-        "audio_url": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music/elise.mp3"
+        "audio_url": "https://music.163.com/song/media/outer/url?id=3327161647.mp3"
     },
     {
         "title": "小星星 (经典版)",
@@ -58,4 +58,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 

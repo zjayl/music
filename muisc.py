@@ -10,9 +10,9 @@ SONGS = [
         "audio_url": "https://music.163.com/song/media/outer/url?id=3327521028.mp3"       # 永久音频
     },
     {
-        "title": "致爱丽丝",
+        "title": "蒲公英",
         "artist": "贝多芬",
-        "cover": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music_covers/elise.jpg",
+        "cover": "https://p1.music.126.net/dleuvzUn8XTAO9G1JMGMFg==/109951172410600081.jpg?param=130y130",
         "audio_url": "https://music.163.com/song/media/outer/url?id=3327161647.mp3"
     },
     {
@@ -58,5 +58,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 

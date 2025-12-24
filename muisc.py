@@ -4,9 +4,9 @@ import streamlit as st
 st.set_page_config(page_title="网络版音乐播放器", layout="centered")
 SONGS = [
     {
-        "title": "卡农 (钢琴版)",
+        "title": "给自己未来",
         "artist": "经典纯音乐",
-        "cover": "https://raw.githubusercontent.com/JoeyBling/ImageHosting/master/music_covers/canon.jpg",  # 永久专辑图
+        "cover": "http://p1.music.126.net/Ke8Pljuxyshpx55cMIuWNA==/109951172459509491.jpg?param=130y130",  # 永久专辑图
         "audio_url": "https://music.163.com/song/media/outer/url?id=3327521028.mp3"       # 永久音频
     },
     {
@@ -58,6 +58,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
 
